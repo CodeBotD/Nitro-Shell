@@ -54,7 +54,7 @@ source ~/.zshrc
 
 3️⃣ Clone NitroShell
 
-git clone https://github.com/YOUR_USERNAME/nitroshell.git ~/.nitroshell
+git clone https://github.com/CodeBotD/nitroshell.git ~/.nitroshell
 cd ~/.nitroshell
 chmod +x *.sh
 
