@@ -9,13 +9,13 @@ It adds:
 - Custom commands
 - Cool themes + prompt
 - Full Git + System command launcher
-- Bash, ZSH, and full Linux/macOS compatibility!
+- ZSH, and full macOS compatibility!
 
 ---
 
 ## 🧰 Requirements
 
-- `zsh` or `bash`
+- `zsh` 
 - `fzf` (for fuzzy menus)
 - `oh-my-zsh` (for plugins & themes)
 
