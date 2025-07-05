@@ -1,57 +1,45 @@
-# ⚡ NitroShell
-
-**NitroShell** is a custom turbo layer for your terminal that adds a whole new world of interactivity, speed, and style to your command line — without needing a new terminal app. 🚀
-
-It adds:
-
-- Fuzzy command menus 🧠
-- Autocomplete with style
-- Custom commands
-- Cool themes + prompt
-- Full Git + System command launcher
-- ZSH, and full macOS compatibility!
+<h1 align="center">⚡ NitroShell for macOS ⚡</h1>
+<p align="center">
+  A smarter, cooler, voice-activated terminal powered by <strong>CodeBotD</strong> (aka Mitri 😎)<br>
+  Fuzzy search, typo fixing, ASCII art banners, and 🔊 talking shell powers!
+</p>
 
 ---
 
-## 🧰 Requirements
+## ⚠️ Requirements (macOS only)
 
-- `zsh` 
-- `fzf` (for fuzzy menus)
-- `oh-my-zsh` (for plugins & themes)
-
-<h1 align="center">🔥 NitroShell for macOS 🔥</h1>
-<p align="center">
-  A smarter, cooler, voice-activated terminal powered by <strong>CodeBotD</strong> (aka Mitri 😎)<br>
-  Now with fuzzy search, typo fixing, ASCII art, and 🔊 talking shell powers!
-</p>
+- `zsh` shell (default on macOS)
+- `fzf` for fuzzy menus  
+  → Install with: `brew install fzf`
+- `python3` for typo detection
+- *(Optional)* `oh-my-zsh` for themes/plugins
 
 ---
 
 ## 🛠️ Features
 
-- 🎤 Voice-activated greeting
-- 🔍 Fuzzy command menu (`fzf`)
-- 🧠 Smart typo correction (`Did you mean echo?`)
-- 🎨 Orange + white ASCII art banner
-- ⚡ Fast alias access: `nitro`, `cmds`
+- 🎤 Voice-activated greeting with `say`
+- 🔍 Fuzzy command launcher (`fzf`)
+- 🧠 Smart typo detection (`Did you mean echo?`)
+- 🎨 Orange + white ASCII banner
+- ⚡ Quick access with `nitro` or `cmds`
+- 🧪 Works in your normal terminal — no new apps!
 
 ---
 
-
-
 ## 🚀 Install NitroShell (macOS Only)
 
-```bash
+```
 git clone https://github.com/CodeBotD/Nitro-Shell.git ~/.nitroshell
 chmod +x ~/.nitroshell/shell.sh
 
 🔧 Setup .zshrc
 
-Open your ZSH config:
+    Open your ZSH config:
 
 nano ~/.zshrc
 
-Paste this at the bottom:
+    Paste this at the bottom:
 
 # NitroShell by CodeBotD 🚀
 alias nitro="~/.nitroshell/shell.sh"
@@ -87,65 +75,47 @@ EOF
   fi
 }
 
-Save (CTRL+O, Enter) and exit (CTRL+X).
+    Save with CTRL+O, then press Enter
 
-Then reload your shell:
+    Exit with CTRL+X
+
+    Reload your shell:
 
 source ~/.zshrc
 
 ✅ Use NitroShell
 
-    Start it manually:
+    🧨 Start NitroShell manually:
 
 nitro
 
-    Or say the magic word:
+    🗣️ Activate with voice:
 
 cmds
 
-    Test a typo:
+    (This alias is set but may not work depending on your setup)
+
+    🧠 Try a typo:
 
 ecoh
 
-You'll see:
+You’ll see:
 
-zsh: command not found: ecoh  
+zsh: command not found: ecoh
 NitroShell: Did you mean 'echo'? [Y/n]
 
----
-👑 Made by
 
-Dimitrius Farida
-Follow my adventures and check out more at: github.com/CodeBotD
----
-🧠 Wanna Contribute?
+```
+<h1 align="center">👑 Made by Mitri (aka CodeBotD)</h1> <p align="center"> 🧠 I’m Dimitrius Farida — a kid coder with big energy!<br> I build awesome tech like NitroShell, Roblox games, Minecraft mods, and more!<br><br> 🌐 Check out more at <a href="https://github.com/CodeBotD">github.com/CodeBotD</a> </p> <h1 align="center">🧠 Wanna Contribute?</h1> <p align="center"> Found a bug? Got a 🔥 idea like rainbow banners or a terminal minigame?<br><br> 🎯 Fork the repo, make your changes, and send a PR!<br> Together we’ll make NitroShell smarter, cooler, and louder! 🚀 </p>
 
-Found a bug? Got a fun idea? Wanna add rainbow ASCII art?
-Feel free to fork, edit, and PR! 🚀
+🌟 Future Ideas
 
----
-⚠️ Warning
+    nitroboost → Fancy shell animations 💥
 
-NitroShell only supports macOS and requires:
+    fuel → Show battery charge status 🔋
 
-    zsh shell (default on Mac)
+    ascii → Random quotes or banners 🎨
 
-    fzf fuzzy finder (brew install fzf)
+    historyboost → Fuzzy search your past commands 🔍
 
-    python3 for command matching
-
----
-🔥 Future Ideas
-
-    nitroboost → Makes terminal effects!
-
-    fuel → Battery status!
-
-    ascii → Shows a random banner or quote
-
-    historyboost → Fuzzy search command history
-
-    game → Little terminal game (like Fishy Pong 🐟)
-
-\
-
+    game → A terminal game like Fishy Pong 
