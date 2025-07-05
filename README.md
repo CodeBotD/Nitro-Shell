@@ -37,6 +37,8 @@ It adds:
 
 ---
 
+
+
 ## 🚀 Install NitroShell (macOS Only)
 
 ```bash
@@ -132,6 +134,7 @@ NitroShell only supports macOS and requires:
 
     python3 for command matching
 
+---
 🔥 Future Ideas
 
     nitroboost → Makes terminal effects!
@@ -144,5 +147,5 @@ NitroShell only supports macOS and requires:
 
     game → Little terminal game (like Fishy Pong 🐟)
 
-👨‍💻 Made by Dimitrius Farida
+\
 
