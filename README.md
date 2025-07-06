@@ -99,7 +99,7 @@ nitro
 
     🗣️ Activate with voice:
 
-cmds
+cmds (not working)
 
     (This alias is set but may not work depending on your setup)
 
