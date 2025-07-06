@@ -33,14 +33,18 @@
 git clone https://github.com/CodeBotD/Nitro-Shell.git ~/.nitroshell
 chmod +x ~/.nitroshell/shell.sh
 
+```
 🔧 Setup .zshrc
 
-    Open your ZSH config:
+```
+```
+Open your ZSH config:
 
+```
 nano ~/.zshrc
-
-    Paste this at the bottom:
-
+```
+  Paste this at the bottom:
+```
 # NitroShell by CodeBotD 🚀
 alias nitro="~/.nitroshell/shell.sh"
 alias cmds="say 'NitroShell activated' && nitro"
@@ -75,17 +79,21 @@ EOF
   fi
 }
 
+```
+`
     Save with CTRL+O, then press Enter
 
-    Exit with CTRL+X
+ `   Exit with CTRL+X
 
-    Reload your shell:
+  `  Reload your shell:
 
+```
 source ~/.zshrc
 
 ✅ Use NitroShell
 
-    🧨 Start NitroShell manually:
+
+    `🧨 Start NitroShell manually:
 
 nitro
 
@@ -95,7 +103,8 @@ cmds
 
     (This alias is set but may not work depending on your setup)
 
-    🧠 Try a typo:
+```
+🧠 Try a typo:
 
 ecoh
 
@@ -106,8 +115,11 @@ NitroShell: Did you mean 'echo'? [Y/n]
 
 
 ```
+```
 <h1 align="center">👑 Made by Mitri (aka CodeBotD)</h1> <p align="center"> 🧠 I’m Dimitrius Farida — a kid coder with big energy!<br> I build awesome tech like NitroShell, Roblox games, Minecraft mods, and more!<br><br> 🌐 Check out more at <a href="https://github.com/CodeBotD">github.com/CodeBotD</a> </p> <h1 align="center">🧠 Wanna Contribute?</h1> <p align="center"> Found a bug? Got a 🔥 idea like rainbow banners or a terminal minigame?<br><br> 🎯 Fork the repo, make your changes, and send a PR!<br> Together we’ll make NitroShell smarter, cooler, and louder! 🚀 </p>
 
+```
+```
 🌟 Future Ideas
 
     nitroboost → Fancy shell animations 💥
